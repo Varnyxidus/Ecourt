@@ -1,0 +1,220 @@
+.about-us .rw {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.about-us .rw .contentUs {
+    flex: 1 1 30rem;
+}
+
+.about-us .rw .contentUs h3 {
+    position: relative;
+    top: 150px;
+    font-size: 3rem;
+    color: #333;
+}
+
+.about-us .rw .contentUs p {
+    position: relative;
+    top: 150px;
+    font-size: 1.5rem;
+    color: #999;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.about-us .rw .pic-aboutUs {
+    top: 150px;
+    flex: 1 1 20rem;
+    position: relative;
+}
+
+.about-us .rw .pic-aboutUs img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.btn {
+    position: relative;
+
+    top: 160px;
+    margin-top: 1;
+    border-radius: 5rem;
+    background-color: var(--purple);
+    color: #fff;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background: blueviolet;
+}
+
+/*---Misi kami--*/
+.misi-kami {
+    width: 90%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.misi-kami .row {
+    display: flex;
+}
+
+.misi-colo {
+    display: flex;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    top: 190px;
+    left: 5%;
+}
+
+.misi-colo img {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(72, 6, 153, 0.7);
+}
+
+.layer h3 {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.misi-kami h1 {
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+.misi-kami p {
+    position: relative;
+    text-align: center;
+    top: 130px;
+    font-size: 1.5rem;
+    color: #999;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+
+/*--Contact us--*/
+.location {
+    flex: 1 1 10rem;
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.contact-us h1 {
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+    position: relative;
+    top: 230px;
+}
+
+.location iframe {
+    position: relative;
+    top: 150px;
+    width: 100%;
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col {
+    position: relative;
+    top: 70px;
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+
+    margin-bottom: 40px;
+}
+
+.contact-col i {
+    font-size: 28px;
+    color: #431795;
+    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10;
+}
+
+.contact-col h5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: #6a6a6a;
+    font-weight: 400;
+}
+
+.contact-col p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color: #8b8888;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.contact-col input,
+.contact-col textarea {
+
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
