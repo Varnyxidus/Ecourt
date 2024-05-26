@@ -25,9 +25,9 @@
         <a href="#" class="logo">E-Court<span>.</span></a>
 
         <nav class="navbar">
-            <a href="#Home">Home</a>
-            <a href="#Home">Consult</a>
-            <a href="#Home"> Make Appointment</a>
+            <a href="home.php">Home</a>
+            <a href="index.php">Consult</a>
+            <a href="index.php"> Make Appointment</a>
         </nav>
 
         <div class="login">
@@ -55,32 +55,32 @@
 
     <!--Misi kami-->
     <section class="misi-kami">
-        <h1>OUR VISION</h1>
-        <p>E-court selalu mengutamakan kualitas dalam setiap layanan yang kami berikan. Kepuasan Pelanggan merupakan
+            <h1>OUR MISSION</h1>
+            <p>E-court selalu mengutamakan kualitas dalam setiap layanan yang kami berikan. Kepuasan Pelanggan merupakan
             Prioritas Utama kami. Kami terus berinovasi untuk meningkatkan layanan kami dan juga terus mengikuti
             perkembangan terbaru dalam teknologi dan teknik perbaikan yang terbaik untuk memastikan bahwa layanan
             keandalan dan efektivitas layanan kami.</p>
 
-        <div class="row">
-            <div class="misi-colo">
-                <img src="img/siti.jpg">
-                <div class="layer">
-                    <h3>MENANGANI</h3>
+            <div class="row">
+                <div class="misi-colo">
+                    <img src="img/siti.jpg">
+                    <div class="layer">
+                        <h3>MENANGANI</h3>
+                    </div>
+                </div>
+                <div class="misi-colo">
+                    <img src="img/arul.jpg">
+                    <div class="layer">
+                        <h3>MEMPERBAIKI</h3>
+                    </div>
+                </div>
+                <div class="misi-colo">
+                    <img src="img/sumanto.jpg">
+                    <div class="layer">
+                        <h3>MENGATASI</h3>
+                    </div>
                 </div>
             </div>
-            <div class="misi-colo">
-                <img src="img/arul.jpg">
-                <div class="layer">
-                    <h3>MEMPERBAIKI</h3>
-                </div>
-            </div>
-            <div class="misi-colo">
-                <img src="img/sumanto.jpg">
-                <div class="layer">
-                    <h3>MENGATASI</h3>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!--contact us-->
