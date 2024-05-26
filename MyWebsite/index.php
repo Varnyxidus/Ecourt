@@ -32,7 +32,7 @@
                 }
 
                 if(isset($_SESSION['valid'])){
-                    header('Location: home.php');
+                    header('Location: loggedhome.php');
                 }
             }else{
             ?>

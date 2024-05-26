@@ -20,13 +20,31 @@
         <a href="#" class="logo">E-Court<span>.</span></a>
 
         <nav class="navbar">
-            <a href="home.php">Home</a>
-            <a href="index.php">Consult</a>
-            <a href="index.php"> Make Appointment</a>
+            <a href="loggedhome.php">Home</a>
+            <a href="#Home">Consult</a>
+            <a href="appointment1.php"> Make Appointment</a>
         </nav>
 
-        <div class="login">
-            <a href="index.php" class="loginbtn">Login</a>
+        <img src="img/profile.png" class="profilepic" onclick="toggleMenu()">
+
+        <div class="submenu-wrap" id="subMenu">
+            <div class="submenu">
+                <div class="userinfo">
+                    <img src="img/profile.png">
+                    <h3>
+                        lindaforu
+                    </h3>
+                </div>
+                <hr>
+                <a href="" class="sub-menu-link">
+                    <p>Edit Profile</p>
+                    <span>></span>
+                </a>
+                <a href="home.php" class="sub-menu-link">
+                    <p>Log Out</p>
+                    <span>></span>
+                </a>
+            </div>
         </div>
     </header>
     <section class="home" id="home">
@@ -48,7 +66,7 @@
                 Our team of seasoned professionals is here to provide top-notch consultation services, 
                 ensuring your devices run smoothly. learn more about our mission, values, 
                 and the experts behind our services!</p>
-                <a href="AboutUs.php" class="btn">About Us</a>
+                <a href="loggedaboutus.php" class="btn">About Us</a>
             </div>
         </div>
     </section>
@@ -130,5 +148,13 @@
             </div>
         </div>
     </section>
+
+    <script>
+        let subMenu = document.getElementById('subMenu');
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
 </body>
 </html>
