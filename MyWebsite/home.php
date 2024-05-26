@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,9 @@
     <!--link css custom -->
     <link rel="stylesheet" href="style/homestyle.css">
 </head>
+
 <body>
+
     <header>
         <input type="checkbox" name="" id="toggler">
         <label for="toggler" class="fas fa-bars"></label>
@@ -44,11 +47,11 @@
             </div>
             <div class="content">
                 <h3>Get To Know Us</h3>
-                <p>Dedicated to solving your electronics issues with expertise and care. 
-                Our team of seasoned professionals is here to provide top-notch consultation services, 
-                ensuring your devices run smoothly. learn more about our mission, values, 
-                and the experts behind our services!</p>
-                <a href="#" class="btn">About Us</a>
+                <p>Dedicated to solving your electronics issues with expertise and care.
+                    Our team of seasoned professionals is here to provide top-notch consultation services,
+                    ensuring your devices run smoothly. learn more about our mission, values,
+                    and the experts behind our services!</p>
+                <a href="AboutUs.php" class="btn">Read More</a>
             </div>
         </div>
     </section>
@@ -59,10 +62,10 @@
         <div class="row">
             <div class="content">
                 <h3>First Time?</h3>
-                <p>Do not worry! Our step-by-step guide will walk you through everything you need to know to get 
-                    started with our online consultation services. From booking a session to resolving your 
+                <p>Do not worry! Our step-by-step guide will walk you through everything you need to know to get
+                    started with our online consultation services. From booking a session to resolving your
                     electronics issues, we've got you covered.</p>
-                <a href="#" class="btn">How It Works</a>
+                <a href="HowItWorks.php" class="btn">How It Works</a>
             </div>
             <div class="pic-container">
                 <img src="img/confused.jpeg">
@@ -74,7 +77,7 @@
             <span>Customer's Review</span>
         </h1>
         <div class="box-conta">
-            <div class="box">  
+            <div class="box">
                 <div class="user">
                     <img src="img/cewegirl.jpeg">
                     <div class="user-info">
@@ -89,10 +92,10 @@
                     </div>
                 </div>
                 <p>Sangat membantu, Harga wajar, teknisinya ramah dan cepat selesai!
-                </p> 
+                </p>
                 <span class="fas fa-quote-right"></span>
             </div>
-            <div class="box">  
+            <div class="box">
                 <div class="user">
                     <img src="img/babyboy.jpeg">
                     <div class="user-info">
@@ -107,7 +110,7 @@
                     </div>
                 </div>
                 <p>Teknisi datang tepat waktu dan pengerjaan sesuai dengan permintaan.
-                </p> 
+                </p>
                 <span class="fas fa-quote-right"></span>
             </div>
             <div class="box">
@@ -125,10 +128,11 @@
                     </div>
                 </div>
                 <p>Sangat dapat diandalkan dan hasilnya memuaskan.
-                </p> 
+                </p>
                 <span class="fas fa-quote-right"></span>
             </div>
         </div>
     </section>
 </body>
+
 </html>
